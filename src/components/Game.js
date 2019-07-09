@@ -38,3 +38,7 @@ export default class Game extends Component {
     );
   }
 }
+
+function calculateWinner(square) {
+  return null;
+}
