@@ -45,6 +45,7 @@ export default class Game extends Component {
       return (
         <li key={move}>
           <button
+            className="button"
             onClick={() => {
               this.jumpTo(move);
             }}

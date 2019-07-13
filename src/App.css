@@ -1,3 +1,7 @@
+html,
+body {
+  box-sizing: border-box;
+}
 .square {
   background: white;
   border: 1px solid gray;
@@ -27,7 +31,6 @@
 
 .game {
   position: absolute;
-
   background: lightblue;
   top: 50%;
   left: 50%;
@@ -54,4 +57,10 @@ ul {
 
 .status {
   margin-bottom: 10px;
+}
+
+.button {
+  width: 130px;
+  cursor: pointer;
+  padding: 3px;
 }
