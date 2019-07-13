@@ -46,9 +46,19 @@ body {
   }
 }
 
+@media screen and (min-width: 872px) {
+  .button {
+    min-width: 140px;
+    margin-right: 10px;
+  }
+}
+
 ol,
 ul {
-  padding-left: 30px;
+  /* padding-left: 30px; */
+  margin: 0 auto;
+  list-style: none;
+  /* text-align: center; */
 }
 
 .game-info {
@@ -60,7 +70,16 @@ ul {
 }
 
 .button {
-  width: 130px;
+  max-width: 140px;
+  width: 60%;
+  text-align: center;
   cursor: pointer;
   padding: 3px;
+  font-size: 1rem;
+}
+
+.status-display {
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 5px 0;
 }
